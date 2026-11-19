@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#090909"><meta name="description" content="IGNITE公式リンク集。昨日の自分を、超えろ。">
+<title>IGNITE | Official Links</title>
+<style>
+:root{color-scheme:dark;--gold:#e8b85b;--muted:#b5ad9e}*{box-sizing:border-box}body{margin:0;min-height:100svh;font-family:-apple-system,BlinkMacSystemFont,'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;background:radial-gradient(ellipse at 50% 0%,#3b2915 0%,#15120e 33%,#080808 75%);color:#f7f3ec;display:flex;align-items:center;justify-content:center;padding:40px 20px}.wrap{width:100%;max-width:440px;text-align:center}.flame{font-size:48px;filter:drop-shadow(0 0 24px #b77930aa);margin-bottom:4px}.brand{font-size:43px;letter-spacing:.2em;margin:0 0 5px 8px;font-weight:800;color:var(--gold)}.tagline{margin:0;color:#e8d9bd;font-size:14px;letter-spacing:.16em}.line{height:1px;background:linear-gradient(90deg,transparent,#9d793f,transparent);margin:32px 0}.intro{font-size:13px;line-height:2;color:var(--muted);margin:0 0 26px}.links{display:grid;gap:15px}.link{display:flex;align-items:center;gap:15px;padding:20px 18px;border-radius:15px;border:1px solid #76562b;background:linear-gradient(120deg,#292116,#151311);text-decoration:none;color:#fff;text-align:left;transition:transform .2s,border-color .2s,background .2s;box-shadow:0 8px 25px #0005}.link:hover,.link:focus-visible{transform:translateY(-2px);border-color:var(--gold);background:#302516}.ico{font-size:27px;width:37px;text-align:center}.link strong{display:block;font-size:16px;letter-spacing:.02em}.link small{display:block;color:#c6bca9;font-size:11px;margin-top:5px}.arrow{margin-left:auto;color:var(--gold);font-size:21px}.instagram{border-color:#45403a;background:#181717}.note{font-size:11px;color:#91877a;margin:23px 0 0;line-height:1.8}.footer{margin-top:55px;font-size:11px;letter-spacing:.18em;color:#766b5d}@media(max-width:360px){.brand{font-size:36px}.link{padding:17px 13px}.link strong{font-size:14px}}
+</style>
+</head>
+<body><main class="wrap"><div class="flame" aria-hidden="true">🔥</div><h1 class="brand">IGNITE</h1><p class="tagline">昨日の自分を、超えろ。</p><div class="line"></div><p class="intro">小さな一歩が、未来を変える。<br>ここから、あなたの挑戦を始めよう。</p><nav class="links" aria-label="IGNITE公式リンク"><a class="link" href="https://ignite1230.github.io/ignite-habits/"><span class="ico" aria-hidden="true">⚡</span><span><strong>IGNITE HABITS</strong><small>無料の習慣管理アプリ｜β版</small></span><span class="arrow" aria-hidden="true">↗</span></a><a class="link instagram" id="instagram-link" href="#" aria-disabled="true"><span class="ico" aria-hidden="true"><svg width="29" height="29" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" style="display:block;margin:auto;color:#f6d29a"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></span><span><strong>Instagram</strong><small id="instagram-subtitle">アカウントURLを設定すると開けます</small></span><span class="arrow" aria-hidden="true">↗</span></a></nav><p class="note">※習慣アプリの記録は現在、使用中のブラウザ内に保存されます。</p><div class="footer">KEEP GOING. KEEP IGNITING.</div></main>
+<script>
+// InstagramのプロフィールURLを下の引用符の中に入力してください。
+const INSTAGRAM_URL = 'https://www.instagram.com/ignite.yourself_365/';
+const link = document.getElementById('instagram-link');
+if (INSTAGRAM_URL.trim()) { link.href = INSTAGRAM_URL.trim(); link.removeAttribute('aria-disabled'); document.getElementById('instagram-subtitle').textContent = '公式Instagramを見る'; }
+else { link.addEventListener('click', e => { e.preventDefault(); alert('InstagramのURLを設定してください。'); }); }
+</script>
+</body></html>
